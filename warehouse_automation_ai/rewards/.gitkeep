@@ -1,0 +1,2 @@
+# This file ensures the 'rewards' directory is tracked by Git.
+# This directory will contain reward function definitions for reinforcement learning agents.

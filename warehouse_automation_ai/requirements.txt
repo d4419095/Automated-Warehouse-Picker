@@ -1,0 +1,14 @@
+# This file will list the Python dependencies for the project.
+# Example:
+# gymnasium
+# stable-baselines3[extra]
+# numpy
+# pandas
+# matplotlib
+# pygame (if using PygameRenderer)
+# pytest (for testing)
+# sphinx (for documentation)
+# mypy (for type checking)
+# pylint (for linting)
+# black (for code formatting)
+# isort (for import sorting)
