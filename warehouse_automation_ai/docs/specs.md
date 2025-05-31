@@ -21,3 +21,12 @@ This document outlines the specifications for the warehouse simulation environme
 ## Initial State
 
 (How the environment is initialized at the start of an episode)
+
+## Grid Resolution
+
+The simulation grid uses a cell size of 1 meter x 1 meter.
+
+This resolution was chosen because:
+- It's a realistic dimension for the operational space of Kiva-style warehouse robots, allowing for clear pathways and maneuverability.
+- It simplifies calculations for distance, speed, and area without losing essential detail for pathfinding and layout planning.
+- It provides a good balance between simulation granularity and computational efficiency. Robots can be considered to occupy a single cell at any given time, and their movement from one cell to another represents a 1-meter step.
